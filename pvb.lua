@@ -19,7 +19,7 @@ return {
     SELL_PLANT_DELAY = 20,
 
     -- Webhook
-    BRAINROT_WEBHOOK_URL = "",
+    BRAINROT_WEBHOOK_URL = "https://discord.com/api/webhooks/1280850957747621918/kk5-Ncum_fSh2IiYC0j4rqmow2Qqre6gOwr4S949BO3MXcGtVEUWLtmX2BijwM44ALm-",
     DISCORD_ID = "",
     NOTIFY_RARITY = { "Secret", "Limited" },
     NOTIFY_NAME = {},
