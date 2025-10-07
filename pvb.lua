@@ -1,5 +1,5 @@
 local publicConfig = {  
-   AUTO_UPDATE_RESTART = true,
+  AUTO_UPDATE_RESTART = true,
     MAX_FPS = 3,  -- This will override setfpscap()
     LOW_CPU = true,
     MAX_REBIRTH = 99,  -- Stop rebirth at set amount
@@ -15,13 +15,14 @@ local publicConfig = {
     BUY_GEAR_SHOP = {"Frost Grenade", "Frost Blower"},
 
     -- Keep = Favorite (Prevent sell)
-    KEEP_SEED = {},  -- Plant Names
+     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT_MONEY_PER_SECOND = 20000,  -- 20000 means keep $20+k/s brainrot
-    KEEP_BRAINROT_RARITY = {}, 
+    KEEP_BRAINROT = {"Bredda Ratto", "Squalo Cavallo ", "Dragon Cannelloni", "Gattolini Owlini", "Pot Hotspot", "Crazylone Pizaione", "La Tomatoro", "Los Tralaleritos", "Los Mr Carrotitos"},
+    KEEP_BRAINROT_MONEY_PER_SECOND = 20000, -- Number
+    KEEP_BRAINROT_RARITY = {},
 
-    SELL_BRAINROT_DELAY = 30,  -- Delay for "sell all" brainrot
-    SELL_PLANT_DELAY = 30,  -- "Delay for "sell all" plant
+    SELL_BRAINROT_DELAY = 30,
+    SELL_PLANT_DELAY = 30,
 }
 
 if getgenv().pvbConfig then
