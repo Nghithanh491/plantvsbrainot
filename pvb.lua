@@ -10,6 +10,7 @@ local publicConfig = {
     
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
     OPEN_CARD_PACK = {"Base", "Shiny Base"},
+    MERGE_CARD_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
     FUSE_PLANT = {"Mr Carrot", "Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
 
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio", "Shroombino", "Mango", "King Limone"},
@@ -20,8 +21,7 @@ local publicConfig = {
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 20000,  -- 20000 means keep $20+k/s brainrot
     KEEP_BRAINROT_RARITY = {}, 
-    KEEP_BRAINROT = {"Bredda Ratto", "Squalo Cavallo ", "Dragon Cannelloni", "Gattolini Owlini", "Pot Hotspot", "Crazylone Pizaione", "La Tomatoro", "Los Tralaleritos", "Los Mr Carrotitos"},
-    
+
     SELL_BRAINROT_DELAY = 30,  -- Delay for "sell all" brainrot
     SELL_PLANT_DELAY = 30,  -- "Delay for "sell all" plant
 }
