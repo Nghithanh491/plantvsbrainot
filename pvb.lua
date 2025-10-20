@@ -20,7 +20,7 @@ local publicConfig = {
     -- Keep = Favorite (Prevent sell)
     KEEP_SEED = {},  -- Plant Names
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT_MONEY_PER_SECOND = 20000,  -- 20000 means keep $20+k/s brainrot
+    KEEP_BRAINROT_MONEY_PER_SECOND = 40000,  -- 20000 means keep $20+k/s brainrot
     KEEP_BRAINROT_RARITY = {}, 
 
     SELL_BRAINROT_DELAY = 30,  -- Delay for "sell all" brainrot
